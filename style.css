@@ -2,7 +2,9 @@
     width: 500px;
 } */
 
-
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
 
 .header{
    background-color: #1f2937;
@@ -40,6 +42,7 @@ a, a:hover, a:active, a:visited{
     background-color: #1f2937;
     display: flex;
     padding: 50px;
+    justify-content: space-between;
 }
 
 .container .title{
@@ -72,4 +75,38 @@ button:active{
 #header-img img{
    width: 400px;
    height: 200px;
+   display:flex;
+   flex-shrink: 1;
+
 }
+
+.category img{
+    width: 150px;
+    height:150px;
+    border: 3px solid #3882F6;
+    border-radius: 50%;
+    
+}
+#title{
+    margin: 52px;
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+   
+}
+
+.container2{
+    display:flex;
+    
+    flex:1;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:16px;
+    text-align: center;
+}
+
+
+/* *{
+    border: 1px solid red;
+} */
