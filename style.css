@@ -2,7 +2,7 @@
     width: 500px;
 } */
 *{
-    pointer-events: none;
+    
     padding: 0;
     margin: 0;
     
@@ -73,9 +73,13 @@ button{
     font-weight: 500;
     margin-top: 10px;
 }
-button:active{
-    background-color: darkmagenta;
+
+.container4 button:hover{
+   cursor: pointer;
+   background-color: lightblue;
+   box-shadow: 1px 1px burlywood;
 }
+
 
 #header-img img{
    width: 400px;
